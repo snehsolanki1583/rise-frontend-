@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    
+    <style>
+     
+        * {
+            color: rgb(3, 124, 64);  /* Universal text color */
+           
+        }
+
+     
+        
+
+        ul, ol {
+            margin-left: 20px;
+        }
+
+        ol {
+            list-style-type: decimal;
+        }
+
+        ul.circle {
+            list-style-type: circle;
+        }
+
+        ol.roman {
+            list-style-type: upper-roman;
+        }
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li><a href="https://www.google.com">Google</a></li>
+        <li><a href="Assignment1.html" target="_blank">Task1</a></li>
+        <li><a href="Assignment2.html" target="_self">Task2</a></li>
+        <li><a href="Assignment3.html" target="_blank">Task 3</a></li>
+    </ul>
+
+    <ol>
+        <li>FrontEnd
+            <ul class="circle">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Framework & Libraries
+                    <ol class="roman">
+                        <li>Angular</li>
+                        <li>React</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+    </ol>
+
+</body>
+</html>
