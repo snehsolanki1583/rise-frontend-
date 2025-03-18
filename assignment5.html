@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <title>Practices</title>
+        <style>
+            h1 + p{
+                color: rgb(0, 0, 255);
+            }
+
+            h2 ~ p{
+                color: darkgoldenrod;
+            }
+
+            div > h3{
+                color: red;
+            }
+
+            div > h4 + p{
+                text-shadow: 5px 5px 5px saddlebrown;
+
+            }
+            form{
+               text-shadow: 5px 2px 5px rgb(44, 33, 105);
+               font-size: 17px;
+               font-weight: 500;
+               font-variant: small-caps;
+               border: 2px solid black;
+               border-radius: 25px;
+               margin-left: 10px;
+               padding: 5px;
+               box-shadow: 5px 5px 15px rgb(210, 58, 58);
+               
+            }
+            h2{
+                text-align: center;
+                text-decoration: underline;
+                text-shadow: 5px 5px 3px rgb(28, 117, 211);
+                font-variant: small-caps;
+                word-spacing: 10px;
+                letter-spacing: 5px;
+                
+            }
+           
+           
+        </style>
+    </head>
+    <body>
+        <form action="Pra.html">
+            <h2>Registration Form</h2>
+        <div>
+            <div>
+                <label for="Username">Username : </label>
+                <input type="text" placeholder="FirstName LastName" autofocus> <br><br>
+            </div>
+
+            <div>
+                <label for="Password">Password : </label>
+                <input type="password"><br><br>
+            </div>
+
+            <div>
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" checked>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+               </div>
+
+            <div>
+                
+                <label for="terms">Hobbies: </label>
+                <input type="checkbox">Reading
+                <input type="checkbox">Cricket
+                <input type="checkbox">Singing
+                <input type="checkbox">Listening Songs<br>
+                <input type="checkbox">Travelling  <br> <br>
+
+            </div>
+            <div>
+                <label for="Address">Address : </label>
+                <input type="textbox"><br><br>
+            </div>
+
+            <div>
+                <label for="State">State   </label>
+                <select name="State" id="State">
+                <option value="Gujarat">Gujarat</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Pune">Pune</option>
+            </select>
+            <br><br>
+
+            </div>
+          
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+            <br>
+        </div>
+       
+    </form>
+
+
+
+
+
+
+    <div>
+        <div>
+            <h1>Practice of Combinators</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, perferendis.</p>
+        </div>
+       
+
+        <div>
+            <h2>Seocnd Head</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero!</p>
+        </div>
+
+       <div>
+          <h3>Third Head</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+
+        </div>
+
+       <div>
+         <h4>Fourth Head</h4>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+       </div>
+    </div>
+    </body>
+</html>
