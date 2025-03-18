@@ -1,61 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Links</title>
-    
-    <style>
-     
-        * {
-            color: rgb(3, 124, 64);  /* Universal text color */
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Links</title>
+        <link rel="stylesheet" href="practical-3.css">
+        <style>
            
-        }
+             
+            a{
+                color: rgb(9, 144, 255);
+            }
+           
+            #heading{
+                color: rgb(172, 255, 156);
+            } 
 
-     
-        
+            .Lang{
+                color: rgb(170, 0, 255);
+            }
 
-        ul, ol {
-            margin-left: 20px;
-        }
 
-        ol {
-            list-style-type: decimal;
-        }
+            li{
+                color: rgb(197, 40, 40)
+            }
+           
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="https://www.google.com" target="_blank">Google</a></li>
+            <li><a href="assignment1.html" target="_blank">Task-1</a></li>
+            <li><a href="assignment2.html" target="_self">Task-2</a></li>
+            <li><a href="assignment3.html" target="_blank">Task-3</a></li>
+        </ul>
 
-        ul.circle {
-            list-style-type: circle;
-        }
-
-        ol.roman {
-            list-style-type: upper-roman;
-        }
-    </style>
-</head>
-<body>
-
-    <ul>
-        <li><a href="https://www.google.com">Google</a></li>
-        <li><a href="Assignment1.html" target="_blank">Task1</a></li>
-        <li><a href="Assignment2.html" target="_self">Task2</a></li>
-        <li><a href="Assignment3.html" target="_blank">Task 3</a></li>
-    </ul>
-
-    <ol>
-        <li>FrontEnd
-            <ul class="circle">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Framework & Libraries
-                    <ol class="roman">
-                        <li>Angular</li>
-                        <li>React</li>
-                    </ol>
-                </li>
+        <ol>
+            <li id="heading">FRONTEND</li>
+            <ul type="circle">
+                <li class="Lang">HTML</li>
+                <li class="Lang">CSS</li>
+                <li class="Lang">JavaScript</li>
+                <li class="Lang">FrameWork & Libraries</li>
+                <ol type="i">
+                    <li style="color: rgb(30, 255, 255);">Angular</li>
+                    <li style="color: rgb(111, 215, 85);">React</li>
+    
+                </ol>
             </ul>
-        </li>
-    </ol>
-
-</body>
+        </ol>
+        
+    
+    </body>
 </html>
